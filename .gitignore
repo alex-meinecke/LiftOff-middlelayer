@@ -1,0 +1,47 @@
+# Node.js & NPM
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE & Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build & Cache
+dist/
+.cache/
+.temp/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+
+# Apollo Server
+.graphqlconfig
+.graphqlconfig.yml
+
+# Optional (wenn du TypeScript nutzt)
+*.js
+!*.config.js
